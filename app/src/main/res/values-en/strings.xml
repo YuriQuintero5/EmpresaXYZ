@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EmpresaXYZ</string>
+    <string name="DetalleProducto">Product Detail</string>
+    <string name="Material">Material</string>
+    <string name="Dije">Jewels</string>
+    <string name="Tipo">Type</string>
+    <string name="TipoMoneda">Type of Currency</string>
+    <string name="Valor">Value</string>
+</resources>

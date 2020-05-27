@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">EmpresaXYZ</string>
+    <string name="DetalleProducto">Detalle del Producto</string>
+    <string name="Material">Material</string>
+    <string name="Dije">Dije</string>
+    <string name="Tipo">Tipo</string>
+    <string name="TipoMoneda">Tipo de Moneda</string>
+    <string name="Valor">Valor</string>
 </resources>
