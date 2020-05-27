@@ -5,7 +5,16 @@
     <string name="Dije">Dije</string>
     <string name="Tipo">Tipo</string>
     <string name="Cantidad">Cantidad</string>
+    <string name="error_cantidad">Digite la cantidad</string>
+
     <string name="TipoMoneda">Tipo de Moneda</string>
+    <string name="dolar">Dolares</string>
+    <string name="pesos">Pesos</string>
+    <string-array name= "opcionmonedas">
+        <item>@string/dolar</item>
+        <item>@string/pesos</item>
+    </string-array>
+
     <string name="Valor">Valor</string>
     <string name="TipoManilla">Tipo de Manillas</string>
     <string name="opcionmanillauno">Martillo Dorado</string>
@@ -43,5 +52,7 @@
     <string name="oro">Oro</string>
     <string name="plata">Plata</string>
     <string name="niquel">Niquel</string>
+    <string name="limpiar">Limpiar</string>
+
 
 </resources>

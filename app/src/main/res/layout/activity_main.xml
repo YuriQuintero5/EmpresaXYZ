@@ -154,6 +154,7 @@
         android:id="@+id/btnValor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="calcular"
         android:text="@string/Valor"
         android:textColor="#EA0505"
         android:textSize="18sp" />
@@ -165,4 +166,13 @@
         android:textColor="#1F329C"
         android:textSize="24sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="limpiar"
+        android:text="@string/limpiar"
+        android:textColor="#EA0505"
+        android:textSize="18sp" />
 </LinearLayout>
