@@ -4,6 +4,44 @@
     <string name="Material">Material</string>
     <string name="Dije">Dije</string>
     <string name="Tipo">Tipo</string>
+    <string name="Cantidad">Cantidad</string>
     <string name="TipoMoneda">Tipo de Moneda</string>
     <string name="Valor">Valor</string>
+    <string name="TipoManilla">Tipo de Manillas</string>
+    <string name="opcionmanillauno">Martillo Dorado</string>
+    <string name="opcionmanillados">Martillo Plateado</string>
+    <string name="opcionmanillatres">Martillo Niquelado</string>
+    <string name="opcionmanillacuatro">Ancla Dorada</string>
+    <string name="opcionmanillacinco">Ancla Plateada</string>
+    <string name="opcionmanillaseis">Ancla Niquelada</string>
+    <string name="opcionmanillasiete">Martillo Dorado en cuerda</string>
+    <string name="opcionmanillaocho">Martillo Plateado en cuerda</string>
+    <string name="opcionmanillanueve">Martillo Niquelado en cuerda</string>
+    <string name="opcionmanilladiez">Ancla Dorada en cuerda</string>
+    <string name="opcionmanillaonce">Ancla Plateada en cuerda</string>
+    <string name="opcionmanilladoce">Ancla Niquelada en cuerda</string>
+
+    <string-array name= "opcionesmanillas">
+        <item>@string/opcionmanillauno</item>
+        <item>@string/opcionmanillados</item>
+        <item>@string/opcionmanillatres</item>
+        <item>@string/opcionmanillacuatro</item>
+        <item>@string/opcionmanillacinco</item>
+        <item>@string/opcionmanillaseis</item>
+        <item>@string/opcionmanillasiete</item>
+        <item>@string/opcionmanillaocho</item>
+        <item>@string/opcionmanillanueve</item>
+        <item>@string/opcionmanilladiez</item>
+        <item>@string/opcionmanillaonce</item>
+        <item>@string/opcionmanilladoce</item>
+    </string-array>
+
+    <string name="cuero">Cuero</string>
+    <string name="cuerda">Cuerda</string>
+    <string name="martillo">Martillo</string>
+    <string name="ancla">Ancla</string>
+    <string name="oro">Oro</string>
+    <string name="plata">Plata</string>
+    <string name="niquel">Niquel</string>
+
 </resources>

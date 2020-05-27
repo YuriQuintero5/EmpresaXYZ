@@ -7,4 +7,5 @@
     <string name="Tipo">Type</string>
     <string name="TipoMoneda">Type of Currency</string>
     <string name="Valor">Value</string>
+    <string name="Cantidad">" Quantity"</string>
 </resources>

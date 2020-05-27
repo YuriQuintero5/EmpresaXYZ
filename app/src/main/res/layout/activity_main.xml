@@ -11,52 +11,98 @@
         android:id="@+id/lblTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/app_name"
         android:textColor="#E40909"
+        android:textColorHint="#D50D0D"
         android:textSize="30sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblTiposManillas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TipoManilla"
+        android:textColor="#0B2CE4"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/cmbManillas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/lblDetallePro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/DetalleProducto"
         android:textColor="#0B2CE4"
         android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/lblMaterial"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#3F51B5"
-        android:textSize="18sp" />
+        android:orientation="horizontal">
 
-    <Spinner
-        android:id="@+id/cmbMaterial"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Material"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/lblDije"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#3F51B5"
-        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/lblMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
 
-    <Spinner
-        android:id="@+id/cmbDije"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/lblTipo"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#3F51B5"
-        android:textSize="18sp" />
+        android:orientation="horizontal">
 
-    <Spinner
-        android:id="@+id/cmbTipo"
+        <TextView
+            android:id="@+id/txtDije"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Dije"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lblDije"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Tipo"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lblTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -68,6 +114,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:text="@string/Cantidad"
             android:textColor="#3F51B5"
             android:textSize="18sp" />
 
@@ -92,6 +139,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:text="@string/TipoMoneda"
             android:textColor="#3F51B5"
             android:textSize="18sp" />
 
@@ -106,11 +154,15 @@
         android:id="@+id/btnValor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/Valor"
         android:textColor="#EA0505"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/lblValor"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="#1F329C"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 </LinearLayout>
